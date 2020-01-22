@@ -24,7 +24,7 @@ class MyScene : public Scene
         virtual void update()
         {
             // Your code here
-	    clearboard();
+	    clearBoard();
 	    board[y][x] = 'x';
 	    x++;
 
